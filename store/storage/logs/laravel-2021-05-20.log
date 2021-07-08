@@ -1,0 +1,1 @@
+[2021-05-20 21:57:54] live.EMERGENCY: File:/home/limburgp/public_html/store/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.phpLine:269Message:Connection could not be established with host  :stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known  
