@@ -1,0 +1,60 @@
+[08-May-2021 16:52:55 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[08-May-2021 16:53:01 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[08-May-2021 22:29:55 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[08-May-2021 22:30:24 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[08-May-2021 22:30:38 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[08-May-2021 22:30:40 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[08-May-2021 22:30:41 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[09-May-2021 21:10:35 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[10-Jun-2021 14:41:49 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[10-Jun-2021 14:42:10 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#1 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'limburgp_store', '^uYEM0M=w?j&', Array)
+#2 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Ar in /home/limburgp/public_html/store/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
